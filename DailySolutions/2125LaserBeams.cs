@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Solutions.DailySolutions
 {
     // Forgot
     public class Solution1
@@ -29,7 +29,6 @@ namespace ConsoleApp1
 
             return sum;
         }
-
         private int CountSecurityDevices(string row) => row.Count(i => i == '1');
     }
 }
