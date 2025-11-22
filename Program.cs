@@ -7,7 +7,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var solution = new Solution();
-            solution.RunningSum();
+            solution.MinStartValue();
 
             Console.WriteLine("Done, press enter to exit");
             Console.ReadLine();
